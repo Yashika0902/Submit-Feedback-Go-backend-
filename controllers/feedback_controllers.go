@@ -2,14 +2,12 @@ package controllers
 
 import (
 	"encoding/json"
-	"net/http"
-	"strconv"
-
-	"strings"
-
 	"go-feedback-app/database"
 	"go-feedback-app/middleware"
 	"go-feedback-app/models"
+	"net/http"
+	"strconv"
+	"strings"
 
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/gorilla/mux"
